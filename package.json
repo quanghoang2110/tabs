@@ -15,7 +15,6 @@
     "typescript": "tsc --noEmit",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "bootstrap": "yarn --cwd example && yarn",
-    "example": "yarn --cwd example",
     "prepare": "bob build"
   },
   "publishConfig": {
@@ -85,12 +84,6 @@
     "react-native-reanimated": "^1.0.0-alpha",
     "react-native-screens": "^1.0.0 || ^1.0.0-alpha",
     "react-navigation": "^4.0.7"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn flow check"
-    }
   },
   "jest": {
     "preset": "react-native",
