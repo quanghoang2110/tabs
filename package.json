@@ -16,7 +16,6 @@
     "lint": "eslint --ext .js,.ts,.tsx .",
     "bootstrap": "yarn --cwd example && yarn",
     "example": "yarn --cwd example",
-    "release": "yarn release-it",
     "prepare": "bob build"
   },
   "publishConfig": {
