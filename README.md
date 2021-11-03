@@ -4,6 +4,8 @@ This package has been moved to https://github.com/react-navigation/react-navigat
 
 # React Navigation Tabs
 
+yarn add starling-tech@react-navigation-tabs
+
 [![Build Status][build-badge]][build]
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
