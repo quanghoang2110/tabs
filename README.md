@@ -4,7 +4,6 @@ This package has been moved to https://github.com/react-navigation/react-navigat
 
 # React Navigation Tabs
 
-yarn add starling-tech@react-navigation-tabs
 
 [![Build Status][build-badge]][build]
 [![Version][version-badge]][package]
@@ -13,6 +12,8 @@ yarn add starling-tech@react-navigation-tabs
 Tab navigators for React Navigation.
 
 ## Installation
+
+yarn add @starling-tech/react-navigation-tabs
 
 Follow the instructions on the [the React Navigation "Getting Started" guide](https://reactnavigation.org/docs/en/getting-started.html), and then add the `react-navigation-tabs` package to your project.
 
