@@ -4,6 +4,7 @@ This package has been moved to https://github.com/react-navigation/react-navigat
 
 # React Navigation Tabs
 
+
 [![Build Status][build-badge]][build]
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
@@ -11,6 +12,8 @@ This package has been moved to https://github.com/react-navigation/react-navigat
 Tab navigators for React Navigation.
 
 ## Installation
+
+yarn add @starling-tech/react-navigation-tabs
 
 Follow the instructions on the [the React Navigation "Getting Started" guide](https://reactnavigation.org/docs/en/getting-started.html), and then add the `react-navigation-tabs` package to your project.
 
@@ -53,33 +56,6 @@ export default createMaterialBottomTabNavigator(
     activeTintColor: '#F44336',
   },
 );
-```
-
-## Development workflow
-
-To setup the development environment, open a Terminal in the repo directory and run the following:
-
-```sh
-yarn bootstrap
-```
-
-While developing, you can run the example app with [Expo](https://expo.io/) to test your changes:
-
-```sh
-yarn example start
-```
-
-Make sure your code passes TypeScript and ESLint. Run the following to verify:
-
-```sh
-yarn typescript
-yarn lint
-```
-
-To fix formatting errors, run the following:
-
-```sh
-yarn lint --fix
 ```
 
 ## Docs
